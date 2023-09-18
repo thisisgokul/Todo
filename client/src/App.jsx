@@ -1,6 +1,6 @@
 import TaskManager from "./Components/TaskManager";
 import axios from 'axios';
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "https://tudoapi.onrender.com";
 axios.defaults.withCredentials = true;
 
 function App() {
